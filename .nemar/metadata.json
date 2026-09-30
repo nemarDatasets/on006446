@@ -2,12 +2,36 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cueing the future to reduce temporal discounting",
+  "description": "EEG dataset investigating whether episodic future thinking can reduce temporal discounting. Participants described a series of personal future events and were then cued to think about these events while making intertemporal choices. They also rated the vividness of their mental imagery for each event.",
+  "methods_description": "Participants described future events, then made intertemporal choices while cued with those events, with EEG recorded during the task. After the task they rated the vividness of their mental imagery for each event.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Isaac Kinley": {},
     "Sue Becker": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "temporal discounting"
+    },
+    {
+      "term": "episodic future thinking"
+    },
+    {
+      "term": "intertemporal choice"
+    },
+    {
+      "term": "mental imagery"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006446.v1.0.0",
@@ -20,11 +44,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006446",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -33,15 +52,20 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006446",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "17.3 GB (30 files)"
+    "16.09 GB (30 files)"
   ],
   "formats": [
     ".edf",
@@ -49,28 +73,6 @@
     ".md",
     ".tsv",
     ".yml"
-  ],
-  "description": "An EEG study investigating the effects of episodic future thinking on temporal discounting behavior. Participants generated descriptions of future events and subsequently used mental imagery of these events as cues during intertemporal choice tasks, with concurrent measurement of imagery vividness. This dataset provides electrophysiological recordings and behavioral measures relevant to understanding how prospective cognition influences delay discounting.",
-  "methods_description": "EEG data were collected while participants engaged in episodic future thinking tasks and intertemporal choice decisions. Participants first described future events, rated the vividness of their mental imagery, and then made intertemporal choices while cued to think about the previously imagined events.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "episodic future thinking"
-    },
-    {
-      "term": "temporal discounting"
-    },
-    {
-      "term": "delay discounting"
-    },
-    {
-      "term": "intertemporal choice"
-    },
-    {
-      "term": "mental imagery"
-    }
   ],
   "source_hash": "a4f155764c90b9f30b557c3ea35cc3105042c128b4e466a9941c776ef9cbb8d6"
 }
